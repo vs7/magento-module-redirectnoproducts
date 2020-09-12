@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <VS7_RedirectNoProducts>
+            <active>true</active>
+            <codePool>community</codePool>
+        </VS7_RedirectNoProducts>
+    </modules>
+</config>

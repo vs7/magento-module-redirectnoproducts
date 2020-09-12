@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <VS7_RedirectNoProducts>
+            <version>0.1.0</version>
+        </VS7_RedirectNoProducts>
+    </modules>
+    <global>
+        <events>
+            <catalog_block_product_list_collection>
+                <observers>
+                    <vs7_redirectnoproducts>
+                        <class>VS7_RedirectNoProducts_Model_Observer</class>
+                        <method>checkNoProducts</method>
+                    </vs7_redirectnoproducts>
+                </observers>
+            </catalog_block_product_list_collection>
+        </events>
+    </global>
+</config>
