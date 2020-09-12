@@ -1,10 +1,10 @@
-# PROMO WIDGET #
+# REDIRECT NO PRODUCTS
 
 ***
 
 ## Summary:
 
-The module adds "Widget Banner" tab to Shopping Cart Price Rule in admin. Then you can create rule related banner and display it in list with widget.
+Simple Magento extension. Redirects to original category url if product collection with given layered navigation filters contains no products (is empty).
 
 ***
 
@@ -12,13 +12,13 @@ The module adds "Widget Banner" tab to Shopping Cart Price Rule in admin. Then y
 
 Log in to the Magento server, go to your Magento install dir and run these commands:
 ```
-composer require vs7/magento-module-promowidget
+composer require vs7/magento-module-redirectnoproducts
 ```
 ***
 
 ## Tags:
 
-magento, magento1, vs7, promo, rule, widget, banner
+magento, magento1, vs7, layered, navigation, redirect, products
 
 ***
 ## For more information, contact:
